@@ -1,0 +1,22 @@
+{
+  "name": "backend-dependency-graph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node generateDependencyGraph"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/traverse": "^7.25.9",
+    "acorn": "^8.14.0",
+    "fs": "^0.0.1-security",
+    "graphviz": "^0.0.9",
+    "lodash": "^4.17.21"
+  }
+}
