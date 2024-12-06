@@ -122,6 +122,7 @@ function getRootModule(filePath) {
  */
 function generateDependencyGraph(projectPath) {
     const srcDir = path.join(projectPath, '');
+    
     if (!fs.existsSync(srcDir)) {
         console.error(`No src directory found at ${srcDir}. Aborting.`);
         return;
